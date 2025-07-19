@@ -20,7 +20,7 @@ import html from "highlight.js/lib/languages/xml";
 import "highlight.js/styles/atom-one-dark.css";
 // @ts-ignore
 import { createPostInput } from "@apn767/common-med";
-import { blogInputtype } from "../routes/CreateBlog";
+import type { blogInputtype } from "../routes/CreateBlog";
 
 hljs.registerLanguage("javascript", javascript);
 hljs.registerLanguage("java", java);
