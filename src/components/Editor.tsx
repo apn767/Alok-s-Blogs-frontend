@@ -20,6 +20,7 @@ import html from "highlight.js/lib/languages/xml";
 import "highlight.js/styles/atom-one-dark.css";
 // @ts-ignore
 import { createPostInput } from "@apn767/common-med";
+import { blogInputtype } from "../routes/CreateBlog";
 
 hljs.registerLanguage("javascript", javascript);
 hljs.registerLanguage("java", java);
@@ -84,8 +85,8 @@ function Editor({
   setBlogInput,
   blogInput,
 }: {
-  setBlogInput: React.Dispatch<React.SetStateAction<createPostInput>>;
-  blogInput: createPostInput;
+  setBlogInput: React.Dispatch<React.SetStateAction<blogInputtype>>;
+  blogInput: blogInputtype;
 }) {
   return (
     <>
