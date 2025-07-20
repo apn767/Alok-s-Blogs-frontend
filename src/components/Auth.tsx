@@ -71,7 +71,7 @@ export function Auth({ type }: { type: "signup" | "signin" }) {
                 {type === "signup" ? (
                   <LabeledInput
                     label="Username"
-                    placeholder="Tanmay"
+                    placeholder="Enter your name..."
                     onChange={(e) => {
                       setpostInput((c : signupInput) => ({
                         ...c,
@@ -86,7 +86,7 @@ export function Auth({ type }: { type: "signup" | "signin" }) {
 
                 <LabeledInput
                   label="Email"
-                  placeholder="xyz@gmail.com    "
+                  placeholder="abc@gmail.com    "
                   onChange={(e) => {
                     setpostInput((c :signupInput) => ({
                       ...c,
